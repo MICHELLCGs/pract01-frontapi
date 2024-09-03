@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    color: #f8c6d6;
+  }
+  
+  ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+  }
+  
+  .card {
+    background-color: #fce4ec;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; /* Añade transición para el efecto de hover */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Eleva el card al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+  }
+  
+  .card h2 {
+    color: #ec407a;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .error {
+    color: #f44336;
+    text-align: center;
+  }
+  
